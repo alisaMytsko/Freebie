@@ -1,8 +1,6 @@
 .section-one{
-    height: 100vh;
     width: 100%;
     background-color: #fff;
-
 }
 .container-one{
     max-width: 1170px;
@@ -14,6 +12,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 245px;
+    margin-top: 100px;
 }
 .top{
     display:flex;
