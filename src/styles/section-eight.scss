@@ -1,0 +1,104 @@
+.container-eight{
+    max-width: 640px;
+    margin:150px auto 0;
+    text-align: center;
+    p{
+        font-weight: 600;
+        color: #242f51;
+        font-size: 36px;
+    }
+    span{
+        font-weight: 400;
+        color:#7e8084;
+        font-size: 16px;
+    }
+}
+.button-boom{
+    border: 2px solid #ececec;
+    max-width: 280px;
+    margin:0 auto;
+    border-radius: 32px;
+    margin-top:80px;
+    
+    button{
+        cursor: pointer;
+        margin: 4px 0 4px 4px;
+
+    }
+    button:hover{
+        background: #2500f9;
+        color:#fff;      
+    }
+    a{
+        color:#898a8e;
+        text-decoration: none;
+        font-weight: 600;
+        padding-left: 25px;
+    }
+}
+// ----------------section-nine
+.section-nine{
+    display: flex;
+    max-width: 700px;
+    margin:40px auto 0;
+    justify-content: space-between;
+    text-align: center;
+}
+.container-left{
+    border-radius: 10px;
+    box-shadow: 0 0 20px #f7f8f9;
+}
+.gradient-block{
+    background: linear-gradient(#fff, #f4f7f9);
+    color: #999ca5;
+    width: 318px;
+    height: 235px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    p{
+        font-weight: 600;
+        font-size: 20px;
+        color: #242f51;
+        margin:0;
+        
+    }
+    span{
+        font-weight: 400;
+        font-size: 16px;
+        color: #999ca5;
+    }
+}
+ .zero{
+     p{
+         font-weight: 600;
+         font-size: 60px;
+         color: #242f51;
+         padding-top:60px;
+         span{
+            font-weight: 400;
+            font-size: 18px;
+            color: #999ca5;
+         }
+     }
+ }
+ .white-block{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     p{
+        color: #9fa2aa;
+        font-weight: 400;
+        font-size: 16px;
+        margin:0;
+        padding-bottom:30px;
+     }
+     p:first-child{
+        padding-top:40px;
+     }
+     button{
+         margin-bottom: 26px;
+     }
+ }
+ .container-right{
+    border-radius: 10px;
+    box-shadow: 0 0 20px #f4f7f9;
+ }
