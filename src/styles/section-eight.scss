@@ -102,3 +102,80 @@
     border-radius: 10px;
     box-shadow: 0 0 20px #f4f7f9;
  }
+ .horizontal-line{
+     width: 100%;
+     height: 4px;
+     background: #f4f4f4;
+     margin: 150px 0 0 0;
+ }
+//  ----------------section-ten
+.section-ten{
+    max-width: 1600px;
+    margin:260px 0 0 0;
+    position: relative;
+}
+.container-ten{
+    background-image: url(../img/world.823.502.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 823px;
+    height: 502px;
+    position: absolute;
+}
+.people{
+    margin-left: 3%;
+}
+.position--activ{
+    position: absolute;
+    right: 10%;
+    top:-100px;
+}
+.title-ten{
+    max-width: 484px;
+    margin:0 0 44px 0;
+    p{
+        font-weight: 600;
+        font-size: 40px;
+        color: #242f51;
+        margin:0 0 30px 0;
+        line-height: 1.2;
+    }
+    span{
+        font-weight: 400;
+        font-size: 16px;
+        color: #616368;
+    }
+}
+.subtitle-ten{
+    max-width: 566px;
+    p{
+        font-weight: 600;
+        font-size: 20px;
+        color: #242f51;
+        margin: 25px 0 30px 0;
+    }
+    span{
+        font-weight: 400;
+        font-size: 16px;
+        color: #616368;
+    }
+}
+.footer-block{
+    max-width: 590px;
+    display:flex;
+    margin-top:60px;
+}
+.name{
+    p{
+        font-weight: 600;
+        font-size: 18px;
+        color: #242f51;
+        margin:28px 0 0 0;
+    }
+    span{
+        font-weight: 400;
+        font-size: 18px;
+        color: #616368;
+    }
+}
