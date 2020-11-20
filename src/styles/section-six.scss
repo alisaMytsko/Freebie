@@ -44,11 +44,13 @@
 .section-seven{
     display:flex;
     justify-content: space-between;
-    max-width: 1250px;
+    max-width: 1600px;
     margin:100px auto 0;
+    position: relative;
 }
 .wrapper-seven{
     max-width: 395px;
+
     p{
         font-weight: 600;
         color: #242f51;
@@ -82,9 +84,14 @@
     }
 }
 .for--position{
-    position: relative;
+    position: absolute;
+    display:block;
+    max-width: 100%;
+    height: auto;
+    right:0;
 }
 .container-seven{
+    margin-left:15%;
     button{
         margin-top:60px;
     }

@@ -1,0 +1,218 @@
+.container-eleven{
+    .container-question__p{
+        margin-top: 55px;
+        margin-left:50px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .container-question__content{
+        background: #f5f7fa;
+        margin-bottom: 20px;
+        color: #616368;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left:50px;
+    }
+}
+.title-eleven{
+    max-width: 635px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0 70px 0;
+    p{
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 600;
+        color: #242f51;
+    }
+    span{
+        font-size: 16px;
+        font-weight: 400;
+        color:#6a6c71;
+    }
+}
+
+.wrapper-eleven{
+    width: 950px;
+    background: #f5f7fa;
+    margin:12px auto 0;
+    padding:50px 95px 82px 50px;
+}
+.container-question{
+    width: 60%;
+    margin-bottom: 12px;
+    background: #f5f7fa;
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        color: #242f51;
+    }
+}
+
+.lunge-window{
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #7c7e83;
+    }
+}
+// --------wrapper-close-----
+.wrapper-close{
+    width: 950px;
+    background: #f5f7fa;
+    margin:12px auto 0;
+    padding:10px 95px 10px 50px;
+}
+// .obedin{
+//     display:flex;
+//     align-items: center;
+//     justify-content: space-around;
+// }
+.container-question{
+    .stick{
+        position: relative;
+        width: 20px;
+        height: 20px;
+        background: #000;
+    }
+    // .stick{
+    //     position: relative;
+    //     width: 20px;
+    //     height: 20px;
+    //     text-align: center;
+    //     opacity: 0.3;
+    //     transition: 0.5s;
+    //     }
+    //     .stick:hover {
+    //     opacity: 1;
+    //     }
+    // .stick:before, .stick:after {
+    //     position: absolute;
+    //     left: 15px;
+    //     content: ' ';
+    //     height: 20px;
+    //     width: 2px;
+    //     background-color: #242f51;
+    //     }
+    //     .stick:before {
+    //     transform: rotate(180deg);
+    //     }
+    //     .stick:after {
+    //     transform: rotate(90deg);
+    //     }
+    // .stick:after{
+    //     content:'';
+    //     position: absolute;
+    //     display:block;
+    //     width: 18px;
+    //     height: 1px;
+    //     background: #242f51;
+    //     top:50%;
+    //     left: -8px;
+    // }
+
+}
+// --------------section-twelve----------
+.section-twelve{
+    max-width: 1600px;  
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding:0;
+    position: relative;    
+}
+.wrapper-twelve{
+    max-width: 40%;
+    padding-left: 15%;
+    z-index: 2;
+   
+    p{
+        font-size: 48px;
+        font-weight: 600;
+        color: #242f51;
+        padding-top:85px;
+    }
+    span{
+        font-weight: 400;
+        font-size: 16px;
+        color: #7c7e83;
+    }
+}
+.img-box{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .app-store{
+        margin-left: 16px;
+    }
+}
+.wrapper-img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    right:0;
+    bottom:-66px;
+
+}
+// -------------------section-thirteen------
+.section-thirteen{
+    background: #242f51;
+    padding: 112px 0;
+}
+.container-thirteen{
+    max-width: 470px;
+    margin:0 auto;
+    text-align: center;
+    p{
+        font-weight: 700;
+        font-size: 30px;
+        color: #fcae61;
+        span{
+            color: #fff;
+        }
+    }
+}
+.navigation-footer{
+    display:flex;
+    margin-top: 35px;
+    a{
+        text-decoration: none;
+        color: #fff;
+        transition:  0.3s;
+        font-size: 16px;
+    }
+    a:hover{
+        font-size: 17px;
+    }
+    
+    li{
+        list-style-type: none;
+        padding-left: 35px;
+    }
+    li:first-child{
+        padding-left: 0px;
+    }
+}
+.icon--style{
+    color: #354057;
+    font-size: 24px;
+    padding-left: 24px;
+    transition:  0.3s;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.icon--style:first-child{
+    padding-left: 0px;
+}
+.icon--style:hover{
+    color: #fff;
+}
+.copywrap{
+    margin-top:80px;
+    p{
+        color: #354057;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
