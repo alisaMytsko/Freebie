@@ -8,10 +8,10 @@ console.log('webpack starterkit');
 
 const contentObj = {
   '1': ' Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
-  '2': ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos esse eaque aut ipsam enim, suscipit deserunt eveniet maxime quae officiis commodi, voluptate voluptates atque necessitatibus similique nesciunt fugit voluptatibus temporibus. 2',
-  '3': ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos esse eaque aut ipsam enim, suscipit deserunt eveniet maxime quae officiis commodi, voluptate voluptates atque necessitatibus similique nesciunt fugit voluptatibus temporibus. 3',
-  '4': ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos esse eaque aut ipsam enim, suscipit deserunt eveniet maxime quae officiis commodi, voluptate voluptates atque necessitatibus similique nesciunt fugit voluptatibus temporibus. 4',
-  '5': ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos esse eaque aut ipsam enim, suscipit deserunt eveniet maxime quae officiis commodi, voluptate voluptates atque necessitatibus similique nesciunt fugit voluptatibus temporibus. 5',
+  '2': ' Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
+  '3': 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
+  '4': ' Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
+  '5': ' Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
 };
 
 const buttonsGroup = document.getElementsByClassName('button');

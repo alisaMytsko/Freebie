@@ -13,6 +13,7 @@
         font-weight: 400;
         font-size: 16px;
         margin-left:50px;
+        margin-right: 10%;
     }
 }
 .title-eleven{
@@ -43,10 +44,12 @@
     width: 60%;
     margin-bottom: 12px;
     background: #f5f7fa;
+    position: relative;
     p{
         font-size: 20px;
         font-weight: 600;
         color: #242f51;
+        margin-left: 50px;
     }
 }
 
@@ -64,18 +67,33 @@
     margin:12px auto 0;
     padding:10px 95px 10px 50px;
 }
-// .obedin{
-//     display:flex;
-//     align-items: center;
-//     justify-content: space-around;
-// }
 .container-question{
     .stick{
-        position: relative;
+        position: absolute;
+        right:5%;
+        top:35%;
         width: 20px;
         height: 20px;
-        background: #000;
+        opacity: 0.3;
+        transition: 0.5s;
     }
+    .stick:before, .stick:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 20px;
+        width: 2px;
+        background-color: #242f51;
+    }
+            .stick:hover {
+                    opacity: 1;
+                    }
+            .stick:before {
+                transform: rotate(180deg);
+            }
+            .stick:after {
+                transform: rotate(90deg);
+            }
     // .stick{
     //     position: relative;
     //     width: 20px;
@@ -148,12 +166,13 @@
 }
 .wrapper-img{
     position: absolute;
+    right:0;
+    bottom:-66px;
+}
+.man-yellow{
     display: block;
     max-width: 100%;
     height: auto;
-    right:0;
-    bottom:-66px;
-
 }
 // -------------------section-thirteen------
 .section-thirteen{
@@ -214,5 +233,62 @@
         color: #354057;
         font-size: 14px;
         font-weight: 400;
+    }
+}
+@media(max-width:1231px){
+    .wrapper-img{
+        opacity: 0.2;
+    }
+
+}
+@media(max-width:990px){
+    .title-eleven{
+        padding: 100px 0 70px 0;
+    }
+    .container-question{
+        p{
+            font-size: 18px;
+        }
+    }
+    // -----------section-twelve
+    .wrapper-twelve{
+        max-width: 85%;
+        padding-left: 0%;
+        z-index: 2;
+        text-align: center;
+        margin:0 auto;
+       
+        p{
+            font-size: 40px;
+        }
+    }
+
+}
+@media(max-width:770px){
+    .title-eleven{
+        max-width: 450px;
+        padding: 100px 0 70px 0;
+        p{
+            font-size: 30px;
+        }
+        span{
+            font-size: 16px;
+        }
+    }
+    .container-eleven{
+        .container-question__p{
+            margin-top: 30px;
+            margin-left:30px;
+        }
+        .container-question__content{
+            font-size: 14px;
+            margin-left:30px;
+        }
+    }
+    .container-question{
+        p{
+            font-size: 16px;
+            margin-left: 30px;
+        }
     }
 }

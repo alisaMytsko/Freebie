@@ -127,12 +127,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 823px;
+    max-width: 823px;
     height: 502px;
     position: absolute;
 }
 .people{
     margin-left: 3%;
+    display:block;
+    max-width: 100%;
+    height: auto;
 }
 .position--activ{
     position: absolute;
@@ -264,5 +267,69 @@
     .arrow-left:after:hover{
         border-left: 3px solid #2500f9;
         border-bottom: 3px solid #2500f9;
+    }
+}
+@media (max-width:1231px){
+    .people{
+        display:none;
+    }
+    .position--activ{
+        position: relative;
+        right: 0%;
+        top:0px;
+        margin:0 auto;
+    }
+    .wrappen-ten{
+        margin:0 auto;
+        display:block;
+        max-width: 600px;
+    }
+}
+@media(max-width:770px){
+    // ----------------section-nine
+.section-nine{
+    flex-wrap:wrap;
+}
+.container-left{
+    margin:0 auto;
+}
+ .container-right{
+    margin:60px auto 0;
+ }
+     // ----------------section-ten
+     .section-ten{
+        margin:100px auto 0;
+        padding: 0 30px;
+    }
+    .title-ten{
+        p{
+            font-size: 30px;
+        }
+    }
+
+    .name{
+        p{
+            font-size: 16px;
+            margin:25px 0 0 0;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+    .three--block{
+        margin-left: 20%;
+        .wrraper-arrow{
+            height: 35px;
+            width: 35px;
+            .arrow-left{
+                top:47%;
+                left: 35%;
+            }
+            .arrow-right{
+                top:47%;
+                left:30%;
+            }
+            
+        }
     }
 }
