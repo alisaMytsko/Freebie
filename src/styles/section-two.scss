@@ -99,3 +99,50 @@
     flex-basis:30%;
 }
 }
+@media (max-width:770px){
+    .section-two{
+        position: relative;
+        margin-bottom: 130px;
+    }
+    .one-wrapper{
+        margin:80px auto 40px;
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: #242f51;
+        }
+        
+    
+    }
+    .activ--block{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .wrap{
+        margin-bottom: 40px;
+    }
+    .smart-search{
+        display:none;
+    }
+    .title-two{
+        h2{
+            font-size: 28px;
+            line-height: 1.2;
+            margin:0;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .vector-wrap{
+        padding-top: 34px;
+    }
+    .wrap-two{
+        p{
+            font-size: 16px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+}

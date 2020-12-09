@@ -117,3 +117,51 @@ h3{
         }
     }
 }
+@media (max-width:770px){
+    .section-four{
+        max-width: 1025px;
+        margin:110px auto;
+        padding: 0 15px 0 15px;
+        text-align: center;
+    }
+    .container-four{
+        p{
+            font-size: 16px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+    // --------section-five
+    .section-five{
+        max-width: 1220px;
+        margin:0 auto 100px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-five{
+    
+        p{
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        .rise{
+            font-weight: 400;
+            font-size: 14px;
+            max-width: 300px;
+        }
+        button{
+            margin-top: 13px;
+        }
+    }
+    .size--one{
+        flex-basis: 45%;
+        margin:17px 0 0 0;
+    }
+    .size--two{
+        flex-basis: 35%;
+        margin: 0;
+    }
+
+}
