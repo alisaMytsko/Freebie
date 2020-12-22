@@ -146,3 +146,47 @@
         }
     }
 }
+@media (max-width:550px){
+    .section-two{
+        margin-bottom: 40px;
+    }
+    .one-wrapper{
+        margin:80px auto 20px;
+        p{
+            margin:0;
+        }
+    }
+    .alonzo{
+        max-width: 70%;
+        margin-top: 10px;
+
+    }
+    .all-images{
+        margin:0 auto 80px;
+    }
+    .two-wrapper{
+        max-width: 88%;
+    }
+    .wrap{
+            padding:0;
+    }
+    .title-two{
+        h2{
+            font-size: 20px;
+        }
+    
+        p{
+            font-size: 14px;
+        }
+    
+    }
+    .vector-wrap{
+        width: 70%;
+        margin-right: 2%;
+    }
+    .circle-wrap{
+        max-width: 140%;
+        display:block;
+        height: auto;
+    }
+}
