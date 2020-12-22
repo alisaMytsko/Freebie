@@ -1,6 +1,6 @@
 import '../styles/index.scss';
 const navigation = document.querySelector('.navigation');
-const burger = document.querySelector('.burger-trigger');
+const burger = document.querySelector('i');
 
 if (process.env.NODE_ENV === 'development') {
   require('../index.html');
@@ -9,11 +9,13 @@ if (process.env.NODE_ENV === 'development') {
 burger.addEventListener('click', () => {
   if(navigation.classList.contains('inactive')){
     navigation.classList.remove('inactive'); // делает видимой , т.е  display: block;
-    burger.classList.remove('fa-bars');
     burger.classList.add('fa-times');
     console.log(burger);
   } else {
     navigation.classList.add('inactive');
+    burger.classList.remove('fa-times');
+    burger.classList.add('fa-bars');
+    console.log(burger);
   }
 });
 
