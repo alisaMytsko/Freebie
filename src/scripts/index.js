@@ -1,10 +1,24 @@
 import '../styles/index.scss';
+const navigation = document.querySelector('.navigation');
+const burger = document.querySelector('.burger-trigger');
 
 if (process.env.NODE_ENV === 'development') {
   require('../index.html');
 }
 
-console.log('webpack starterkit');
+burger.addEventListener('click', () => {
+  if(navigation.classList.contains('inactive')){
+    navigation.classList.remove('inactive'); // делает видимой , т.е  display: block;
+    burger.classList.remove('fa-bars');
+    burger.classList.add('fa-times');
+    console.log(burger);
+  } else {
+    navigation.classList.add('inactive');
+  }
+});
+
+
+
 
 const contentObj = {
   '1': ' Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
